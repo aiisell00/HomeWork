@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <title>Document</title>
+    <style>
+        /* :not(p) {color: #ff0000;} p olmayan --> taglari qirmizi edir */
+        /* div:nth-child(2) {background: red;} --> div taglarindan ikincisini deyisir */
+        /* p:first-child {background-color: blue;} --> parent icindeki ilk p child deyisir  */
+        /* p.intro {background-color: green;} --> intro classdaki p tag deyisir  */
+        /* h2, h3 {background-color: violet;} --> iki tagi eyni cur  deyismek isteyende taglari vergul ile ayiririq */
+        /* div + p {background-color: pink;} --> div elementinin  daxilindeki deyil, yanindaki ilk p elementini deyisir  */
+        /* p ~ span {background: teal;} --> p elementinden sonraki butun span elementleri deyisir  */
+        /* [name=~="gender"]{border:3px} --> atribut deyeri gender olan butun taglari deyisir  */
+        /* div[class*="test"] {background: #ffff00;} div icerisindeki butun atribut deyeri test olanlari deyisir */
+        /* * --> butun taglari deyise bilir  */
+        /* .class --> classlar bucur oxunur */
+        /* #id --> idler bucur oxunur  */
+        /* [attribute] --> atributu bucur yazaraq deyisiklik ede bilerik */
+        
+    </style>
+</head>
+<body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        <div>This is some text in a div element.</div>
+        <div><p>This is some text.</p></div>
+        <p>This paragraph is the first child of its parent (body).</p>
+        <div><p>This paragraph is the first child of its parent (div).</p></div>
+        <div class="intro"><p>My name is Aysel.</p></div>
+        <p class="intro">My best friend is Mami.</p>
+        <h2>Demo of the element, element selector</h2>
+        <h3>Welcome to My Homepage</h3>
+        <div>
+            <h2>My name is Donald</h2>
+            <p>I live in Duckburg.</p>
+          </div>
+          <p>My best friend is Mickey.</p>
+          <div>A div element.</div>
+        <span>hi teacher</span>
+        <p>The first paragraph.</p>
+        <span>hi teacher</span>
+        <h2>Another list</h2>
+        <span>hi teacher</span>
+        <input type="text">
+        <input type="radio" name="gender">
+        <input type="radio" name="gender">
+        <div class="first_test">The first div element.</div>
+        <div class="second">The second div element.</div>
+        <div class="test">The third div element.</div>
+        <p class="test">This is some text in a paragraph.</p>
+</body>
+</html>
