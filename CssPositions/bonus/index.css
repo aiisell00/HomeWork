@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    color: white;
+    background-color: darkgreen;
+    position: sticky;
+    top: -1px;
+}
+.box nav{
+    height: 300px;
+}
+ul{
+    height: 100%;
+}
+li{
+    line-height: 50px;
+}
+
+/* ------------------------------------------------------------------ */
+
+
