@@ -1,0 +1,364 @@
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header {
+  position: fixed !important;
+  z-index: 1;
+  top: 0;
+  background-color: #2e3c50;
+  width: 100%;
+  height: 120px;
+}
+.header-main {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+nav{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+nav a{
+    font-weight: bolder;
+    color: white;
+}
+nav a:hover{
+    font-weight: bolder;
+    color: #1abc9c;
+}
+/* ----------------start------------------ */
+.start{
+    width: 100%;
+    height: 500px;
+    padding: 150px 0  ;
+    background-color: #1abc9c;
+}
+.start-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.head{
+    width: 700px;   
+}
+.head h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.head p{
+    font-weight: bold;
+}
+.icons{
+    width: 300px;
+    margin: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons i{
+    font-size: 30px;
+}
+.line{
+    background-color: white;
+    width: 100px;
+    height: .3rem;
+    border-radius: 10px;
+}
+/* ----------portfolio--------------------- */
+.portfolio{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+.portfolio-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.portfolio-head{
+    width: 700px;   
+
+    color: #2e3c50;
+}
+.portfolio-head h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.portfolio-head p{
+    font-weight: bold;
+}
+.icons{
+    width: 300px;
+    margin: 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-head .line{
+    background-color: #2e3c50;
+    width: 100px;
+    height: .3rem;
+    border-radius: 10px;
+}
+.portfolio-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+.img{
+    position: relative;
+}
+.plus{
+    display: none;
+}
+.plus i{
+    color: white;
+    font-size: 60px;
+}
+.card:hover .plus{
+    display: block;
+    width: 300px;
+    height: 210px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    background-color: rgba(26, 188, 156, 0.9);
+}
+/* ---------------about---------------------- */
+.about{
+    width: 100%;
+    height: 650px;
+    background-color: #1abc9c;
+    color: white;
+}
+.about-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 130px 0 0 0;
+}
+.about-text{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    font-size: 25px;
+}
+.text-left{
+    width: 45%;
+}
+.text-right{
+    width: 45%;
+}
+.about-main button{
+    width: 230px;
+    height: 65px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #1abc9c;
+}
+.about-main button:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+/* ----------------contact------------------- */
+.contact{
+    width: 100%;
+    height: 800px;
+}
+.contact-main{
+    padding: 50px 0;
+}
+.contact-head{
+    width: 100%;   
+    color: #2e3c50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-head h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.contact-head p{
+    font-weight: bold;
+}
+.contact-icons{
+    width: 300px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-icons i{
+    font-size: 30px;
+}
+.contact-head .line{
+    background-color: #2e3c50;
+    width: 100px;
+    height: .3rem;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.form-name{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ced4da;
+}
+.form-email{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ced4da;
+}
+.form-phone{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ced4da;
+}
+textarea{
+    border: none;
+    outline: none;
+}
+.form-message{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ced4da;
+}
+.form button{
+    width: 120px;
+    height: 60px;
+    margin: 10px 0 0 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #1abc9c;
+    font-weight: bolder;
+    font-size: 20px;
+}
+/* ----------------footer-text---------------- */
+.footer-text{
+    width: 100%;
+    height: 300px;
+    background-color: #2e3c50;
+}
+.footer-text-main{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-text-main, a{
+    color: white;
+}
+.footer-text-main h1{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.location{
+    width: 320px;
+    height: 130px;
+}
+.web{
+    width: 320px;
+    height: 130px;
+}
+.freelancer{
+    width: 320px;
+    height: 130px;
+}
+.freelancer p{
+    line-height: 25px;
+}
+.web-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.web-icons .i{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -----------------footer----------------------- */
+footer{
+    width: 100%;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #1a252f;
+}
+
+
+
