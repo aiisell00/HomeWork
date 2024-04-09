@@ -20,7 +20,12 @@
 
 // III. Verilmiş ədədin bütün bölənlərini console'a çıxaran proqram tərtib edin.
 
-// --------------no solution---------------------
+// let number=parseInt(prompt("eded daxil edin"));
+// for (let i = 0; i <=number; i++) {
+//   if (number%i===0) {
+//     console.log(i)
+//   }
+// }
 
 
 // VI. Düzbucaqlı üçbucağın katetləri və hipotenuzunun uzunluğu verilib.
@@ -209,4 +214,23 @@
 // Riyazi əməllər toplama,çıxma,vurma və bölmə olacaq.Bu dörd əməldən başqası daxil edilərsə console "Zəhmət olmasa düzgün əməl daxil edin yazılsın."
 // Taskı switch-case ilə yazın.
 
-// ------------------no solutions-----------------------------
+let a=parseInt(prompt('eded daxil edin'));
+let b=parseInt(prompt('eded daxil edin'));
+let c=prompt('operator daxil edin');
+switch (c) {
+  case '+':
+    console.log(`${a+b}`);
+    break;
+    case '-':
+      console.log(`${a-b}`);
+      break;
+      case '*':
+        console.log(`${a*b}`);
+        break;
+        case '/':
+          console.log(`${a/b}`);
+          break;
+  default:
+    console.log('duzgun emel daxil edin');
+    break;
+}
