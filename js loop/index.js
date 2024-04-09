@@ -214,23 +214,58 @@
 // Riyazi əməllər toplama,çıxma,vurma və bölmə olacaq.Bu dörd əməldən başqası daxil edilərsə console "Zəhmət olmasa düzgün əməl daxil edin yazılsın."
 // Taskı switch-case ilə yazın.
 
-let a=parseInt(prompt('eded daxil edin'));
-let b=parseInt(prompt('eded daxil edin'));
-let c=prompt('operator daxil edin');
-switch (c) {
-  case '+':
-    console.log(`${a+b}`);
-    break;
-    case '-':
-      console.log(`${a-b}`);
-      break;
-      case '*':
-        console.log(`${a*b}`);
-        break;
-        case '/':
-          console.log(`${a/b}`);
-          break;
-  default:
-    console.log('duzgun emel daxil edin');
-    break;
-}
+// let a=parseInt(prompt('eded daxil edin'));
+// let b=parseInt(prompt('eded daxil edin'));
+// let c=prompt('operator daxil edin');
+// switch (c) {
+//   case '+':
+//     console.log(`${a+b}`);
+//     break;
+//     case '-':
+//       console.log(`${a-b}`);
+//       break;
+//       case '*':
+//         console.log(`${a*b}`);
+//         break;
+//         case '/':
+//           console.log(`${a/b}`);
+//           break;
+//   default:
+//     console.log('duzgun emel daxil edin');
+//     break;
+// }
+
+// let items = [];
+// let three=0;
+// let two=0;
+// for (let i = 0; i < 5; i++) {
+//   let item= parseInt(prompt('eded daxil edin'));
+//   if (item==0) {
+//     alert('0 daxil edile bilmez');
+//   }else{
+//     items.push(item);
+//   }
+// }
+// for (let i = 0; i < items.length; i++) {
+//   if (three>99) {
+//     three+=items[i];
+//   } else {
+//     two +=items[i];
+//   }
+// }
+// if (three>two) {
+//   console.log(`${three-two}`);
+// } else {
+//   console.log(`${two-three}`);
+// }
+
+// let a=[12, 13, 14, 15, 16]
+// for (let i = 0; i < a; i++) {
+//   a+=i
+// }  
+// console.log(a)
+// let reversed = a.reverse();
+// console.log('reversed:', reversed);
+
+
+
