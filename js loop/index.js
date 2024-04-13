@@ -259,6 +259,7 @@
 //   console.log(`${two-three}`);
 // }
 
+
 // let a=[12, 13, 14, 15, 16]
 // for (let i = 0; i < a; i++) {
 //   a+=i
