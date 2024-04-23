@@ -1,39 +1,3 @@
-// const ulElem = document.createElement("ul");
-// ulElem.setAttribute("class", "student-lists");
-// document.body.append(ulElem);
-// const header = document.createElement("header");
-// const containerDiv = document.createElement("div");
-// // containerDiv.className = "container";
-// // containerDiv.classList.add("container");
-// containerDiv.setAttribute("class", "container");
-// const headerDiv = document.createElement("div");
-// headerDiv.setAttribute("class", "header");
-
-// const logo = document.createElement("h1");
-// logo.style.color = "#fff";
-// logo.style.fontSize = "2.5rem";
-// logo.textContent = "Azmp101";
-// const navElem = document.createElement("nav");
-
-// const listElem = document.createElement("ul");
-// listElem.setAttribute("class", "list");
-// ulElem.innerHTML = `
-//     <li>
-//          <a href="#">About</a>
-//     </li>
-//     <li>
-//          <a href="#">Team</a>
-//     </li>
-//     <li>
-//          <a href="#">Contact</a>
-//     </li>
-// `;
-// navElem.append(ulElem);
-// headerDiv.append(logo, navElem);
-// header.append(containerDiv);
-// containerDiv.append(headerDiv);
-// document.body.prepend(header);
-
 const containerDiv = document.createElement("div");
 containerDiv.setAttribute("class", "container");
 
