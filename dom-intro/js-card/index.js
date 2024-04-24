@@ -1,19 +1,26 @@
 const containerDiv = document.createElement("div");
 containerDiv.setAttribute("class", "container");
 
+
 const twitterDiv = document.createElement("div");
 twitterDiv.setAttribute("class", "twitter");
+
 const instagramDiv = document.createElement("div");
 instagramDiv.setAttribute("class", "instagram");
+
 const youtubeDiv = document.createElement("div");
 youtubeDiv.setAttribute("class", "youtube");
 
+
 const twitter = document.createElement("i");
 twitter.setAttribute("class", "fa-brands fa-twitter");
+
 const instagram = document.createElement("i");
 instagram.setAttribute("class", "fa-brands fa-instagram");
+
 const youtube = document.createElement("i");
 youtube.setAttribute("class", "fa-brands fa-youtube");
+
 
 const h1twitter = document.createElement("h1");
 h1twitter.setAttribute("class", "h1twitter")
@@ -22,40 +29,77 @@ h1twitter.setAttribute("class", "h1instagram")
 const h1youtube = document.createElement("h1");
 h1twitter.setAttribute("class", "h1youtube")
 
-const p = document.createElement("p");
-const button = document.createElement("button");
 
-button.style.backgroundColor = 'black'
-button.style.borderRadius = '30px'
-button.style.height = '30px'
-button.style.width = '60px'
+const ptwit = document.createElement("p");
+h1twitter.setAttribute("class", "ptwit")
+const pinsta = document.createElement("p");
+h1twitter.setAttribute("class", "pinsta")
+const pyout = document.createElement("p");
+h1twitter.setAttribute("class", "pyout")
+
+const btntwit = document.createElement("button");
+h1twitter.setAttribute("class", "btntwit")
+const btninsta = document.createElement("button");
+h1twitter.setAttribute("class", "btninsta")
+const btnyout = document.createElement("button");
+h1twitter.setAttribute("class", "btnyout")
+
+containerDiv.style.height='100vh'
+
+containerDiv.style.display='flex'
+containerDiv.style.justifyContent='space-around'
+containerDiv.style.alignItems='center'
+
+btntwit.style.backgroundColor = 'black'
+btntwit.style.borderRadius = '30px'
+btntwit.style.height = '30px'
+btntwit.style.width = '100px'
+btntwit.textContent = "Read More"
+btntwit.style.color = "white"
+btninsta.style.backgroundColor = 'black'
+btninsta.style.borderRadius = '30px'
+btninsta.style.height = '30px'
+btninsta.style.width = '100px'
+btninsta.textContent = "Read More"
+btninsta.style.color = "white"
+btnyout.style.backgroundColor = 'black'
+btnyout.style.borderRadius = '30px'
+btnyout.style.height = '30px'
+btnyout.style.width = '100px'
+btnyout.textContent = "Read More"
+btnyout.style.color = "white"
 
 h1twitter.textContent = "Twitter"
 h1instagram.textContent = "Instagram"
 h1youtube.textContent = "Youtube"
 
-p.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
-button.textContent = "Read More"
-
-document.body.appendChild(containerDiv)
-twitterDiv.append(containerDiv);
-instagramDiv.append(containerDiv);
-youtubeDiv.append(containerDiv);
+ptwit.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
+pinsta.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
+pyout.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
 
 
-twitter.append(twitterDiv);
-instagram.append(instagramDiv);
-youtube.append(youtubeDiv);
+// pinsta.style.fontWeight='none'
 
-h1twitter.append(twitterDiv);
-h1instagram.append(instagramDiv);
-h1youtube.append(youtubeDiv);
 
-p.append(twitterDiv);
-p.append(instagramDiv);
-p.append(youtubeDiv);
+document.body.append(containerDiv)
+containerDiv.append(twitterDiv);
+containerDiv.append(instagramDiv);
+containerDiv.append(youtubeDiv);
 
-button.append(twitterDiv);
-button.append(instagramDiv);
-button.append(youtubeDiv);
+
+ twitterDiv.append(twitter);
+ instagramDiv.append(instagram);
+ youtubeDiv.append(youtube);
+
+ twitterDiv.append(h1twitter);
+ instagramDiv.append(h1instagram);
+ youtubeDiv.append(h1youtube);
+
+twitterDiv.append(ptwit);
+instagramDiv.append(pinsta);
+youtubeDiv.append(pyout);
+
+ twitterDiv.append(btntwit);
+ instagramDiv.append(btninsta);
+ youtubeDiv.append(btnyout);
 
