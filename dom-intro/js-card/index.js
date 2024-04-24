@@ -4,20 +4,16 @@ containerDiv.setAttribute("class", "container");
 
 const twitterDiv = document.createElement("div");
 twitterDiv.setAttribute("class", "twitter");
-
 const instagramDiv = document.createElement("div");
 instagramDiv.setAttribute("class", "instagram");
-
 const youtubeDiv = document.createElement("div");
 youtubeDiv.setAttribute("class", "youtube");
 
 
 const twitter = document.createElement("i");
 twitter.setAttribute("class", "fa-brands fa-twitter");
-
 const instagram = document.createElement("i");
 instagram.setAttribute("class", "fa-brands fa-instagram");
-
 const youtube = document.createElement("i");
 youtube.setAttribute("class", "fa-brands fa-youtube");
 
@@ -28,7 +24,6 @@ const h1instagram = document.createElement("h1");
 h1twitter.setAttribute("class", "h1instagram")
 const h1youtube = document.createElement("h1");
 h1twitter.setAttribute("class", "h1youtube")
-
 
 const ptwit = document.createElement("p");
 h1twitter.setAttribute("class", "ptwit")
@@ -45,7 +40,6 @@ const btnyout = document.createElement("button");
 h1twitter.setAttribute("class", "btnyout")
 
 containerDiv.style.height='100vh'
-
 containerDiv.style.display='flex'
 containerDiv.style.justifyContent='space-around'
 containerDiv.style.alignItems='center'
@@ -102,29 +96,24 @@ ptwit.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
 pinsta.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
 pyout.textContent = "Lorem ipsum dolor sit, amet consectetur adipisicing elit.";
 
-
-// pinsta.style.fontWeight='none'
-
-
 document.body.append(containerDiv)
 containerDiv.append(twitterDiv);
 containerDiv.append(instagramDiv);
 containerDiv.append(youtubeDiv);
 
+twitterDiv.append(twitter);
+instagramDiv.append(instagram);
+youtubeDiv.append(youtube);
 
- twitterDiv.append(twitter);
- instagramDiv.append(instagram);
- youtubeDiv.append(youtube);
-
- twitterDiv.append(h1twitter);
- instagramDiv.append(h1instagram);
- youtubeDiv.append(h1youtube);
+twitterDiv.append(h1twitter);
+instagramDiv.append(h1instagram);
+youtubeDiv.append(h1youtube);
 
 twitterDiv.append(ptwit);
 instagramDiv.append(pinsta);
 youtubeDiv.append(pyout);
 
- twitterDiv.append(btntwit);
- instagramDiv.append(btninsta);
- youtubeDiv.append(btnyout);
+twitterDiv.append(btntwit);
+instagramDiv.append(btninsta);
+youtubeDiv.append(btnyout);
 

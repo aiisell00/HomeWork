@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+thead, tbody, th, td, tr{
+  border: 1px solid black;
+}  
