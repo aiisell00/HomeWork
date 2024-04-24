@@ -26,5 +26,7 @@ division.addEventListener('click', function () {
     result.textContent = bolme
 })
 reset.addEventListener('click', function () {
-    result.children.item()==='0'
-}) //reset 
+    first.value=''
+    second.value=''
+    result.textContent='0'
+}) 
