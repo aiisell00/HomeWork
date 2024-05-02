@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+.timer{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  border: 2px solid grey;
+}
+.block{
+  width: 100px;
+  text-align: center;
+}
+.alarm{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input{
+  width: 60px;
+  margin: 10px 0  ;
+  outline: none;
+  padding:  0 0 0 10px ;
+  border: 1px solid green;
+  border-radius: 15px;
+}
+button{
+  background-color: green;
+  width: 80px;
+  height: 25px;
+  margin: 10px 0;
+  border-radius: 20px;
+  color: white;
+  outline: none;
+  border : 1px solid grey
+}
+.error{
+  display: none;
+}
+.err-active{
+  display: block;
+}
+form{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.463);
+}
+.active{
+  display: flex;
+  
+}
+.main .alert{
+  cursor: pointer;
+  font-size: 50px;
+  background-color: brown;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  animation: example 2s infinite;
+}
+.main h1{
+  color: white;
+}
+.alert a{
+  color: white;
+  text-decoration: none;
+}
+@keyframes example {
+  0% {background-color: red;}
+  50% {background-color: orange;}
+  100% {background-color: red;}
+}

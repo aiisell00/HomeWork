@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class="alert">
+      <a href="#">!</a>
+      <h1>Alert</h1>
+    </div>
+  <form action="timer">
+    <div class="hours-timer">
+      <input type="text" placeholder="00">
+      <p>Hours</p>
+    </div>
+    <div class="minutes-timer">
+      <input type="text" placeholder="00">
+      <p>Minutes</p>
+    </div>
+    <div class="seconds-timer">
+      <input type="text" placeholder="00">
+      <p>Seconds</p>
+    </div>
+  </form>
+  <p class="error" style="text-align: center; color: red" ;>| Hour: 0-24 , minute: 0-59 , second: 0-59 |</p>
+  <button type="submit" disabled>Start</button>
+  <div class="alarm">
+    <div class="hours-alarm">
+      <h1>00</h1>
+      <p>Hours</p>
+    </div>
+    <div class="minutes-alarm">
+      <h1>00</h1>
+      <p>Minutes</p>
+    </div>
+    <div class="seconds-alarm">
+      <h1>00</h1>
+      <p>Seconds</p>
+    </div>
+  </div>
+<!-- <audio id="myAudio">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="./emergency-alarm-with-reverb-29431.mp3" type="audio/mpeg"></source>
+</audio> -->
+<script src="./index.js"></script>
+</body>
+</html>
