@@ -1,0 +1,42 @@
+// /** @format */
+
+// * {
+//   margin: 0;
+//   padding: 0;
+// }
+
+// .bar {
+//   max-width: 1200px;
+//   min-height: 100px;
+//   display: flex;
+//   justify-content: space-between;
+//   color: white;
+//   background-color: rgb(33, 121, 210);
+//   margin: 0 auto;
+//   border-radius: 5px;
+//   ul {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin: 0 auto;
+//     gap: 30px;
+//   }
+//   li {
+//     list-style: none;
+//     font-size: 24px;
+//   }
+//   .x-btn {
+//     position: fixed;
+//     right: 360px;
+//     font-size: 30px;
+//     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+//     margin-right: 15px;
+//   }
+// }
+
+
+.counter{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+}

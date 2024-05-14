@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#women {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Poppins";
+  .women-header {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 74%;
+    h2 {
+      height: 28px;
+      margin: 0;
+    }
+    p {
+      color: #c2c1c1;
+      font-style: italic;
+    }
+  }
+  .womens {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    // position: relative;
+    .women {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+
+      .icons {
+        position: absolute;
+        bottom: 90px;
+        width: 200px;
+        height: 50px;
+        display: flex !important;
+        gap: 15px;
+        flex-direction: row;
+        opacity: 0;
+        .icon {
+          height: 50px;
+          width: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+        }
+      }
+      h2 {
+        font-size: 22px;
+      }
+      p {
+        color: gray;
+      }
+      .starBox {
+        margin-top: 20px;
+        width: 360px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        i {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .women:hover .icons {
+      transition: 1s;
+      opacity: 1;
+      bottom: 150px;
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .slider {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border: 1px solid gray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .start {
+      left: -80px;
+      top: 170px;
+    }
+    .end {
+      right: -80px;
+      top: 170px;
+    }
+  }
+}

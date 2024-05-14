@@ -1,0 +1,41 @@
+#footer {
+  background-color: #2a2a2a;
+  padding: 50px 0;
+  color: white;
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  li {
+    list-style: none;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  ul {
+    padding: 0;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    a{
+        color: #cff;
+    }
+    ul{
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+       
+        li{
+            font-size: 20px;
+            color: #cff;
+        }
+    }
+  }
+}
