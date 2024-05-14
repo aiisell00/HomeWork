@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  .header-container {
+    color: white;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 433px);
+    grid-template-areas:
+      "item1 item1 item2 item3"
+      "item1 item1 item4 item5";
+    .item {
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      div {
+        text-align: left;
+      }
+      .hidden {
+        width: 400px;
+        height: 340px;
+        background-color: rgba(42, 42, 42, 0.97);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        opacity: 0;
+        transition: all 0.5s;
+        transform: translate(0);
+
+        button {
+          border: none;
+          padding: 15px 20px;
+        }
+        button:hover {
+          cursor: pointer;
+        }
+      }
+      .hidden:hover {
+        opacity: 1;
+      }
+    }
+    .item1 {
+      width: 920px;
+      height: 790px;
+      grid-area: item1;
+      background-image: url("../../images/image/left-banner-image.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      h2 {
+        font-size: 52px;
+      }
+      button {
+        background: none;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+      }
+    }
+    .item2 {
+      width: 430px;
+      height: 370px;
+      grid-area: item2;
+      background-image: url("../../images/image/baner-right-image-01.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      opacity: 1;
+    }
+    .item3 {
+      width: 430px;
+      height: 370px;
+      grid-area: item3;
+      background-image: url("../../images/image/baner-right-image-02.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .item4 {
+      width: 430px;
+      height: 370px;
+      grid-area: item4;
+      background-image: url("../../images/image/baner-right-image-03.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .item5 {
+      width: 430px;
+      height: 370px;
+      grid-area: item5;
+      background-image: url("../../images/image//baner-right-image-04.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
